@@ -26,7 +26,7 @@ import ProductDetails from './pages/ProductDetails'
 import CartPage from './pages/CartPage'
 
 
-axios.defaults.baseURL='http://localhost:8000'
+axios.defaults.baseURL='https://mern-ecommerce-backend-34bh.onrender.com'
 function App() {
   const [count, setCount] = useState(0)
 
