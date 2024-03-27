@@ -3,6 +3,14 @@ const {registerController, loginController, testController, forgotPasswordContro
 const { requireSignIn, isAdmin } = require('../middlewares/authMiddleware')
 //router object
 const router = express.Router()
+const cors = require('cors')
+
+router.use(
+    cors({
+        credentials: true,
+        origin: ['http://localhost:5173', 'https://mern-ecommerce-bab0.onrender.com'],
+    })
+)
 
 router.post('/register', registerController)
 router.post('/login', loginController)

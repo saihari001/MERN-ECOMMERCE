@@ -4,6 +4,14 @@ const {requireSignIn, isAdmin} = require('../middlewares/authMiddleware')
 const formidable = require('express-formidable')
 const { addProductController, getProductController, getSingleProductController, getProductPhotoController, deleteProductController, updateProductController, productFilterController, searchProductController, braintreeTokenController, braintreePaymentController } = require('../controllers/productController')
 
+const cors = require('cors')
+router.use(
+    cors({
+        credentials: true,
+        origin: ['http://localhost:5173', 'https://mern-ecommerce-bab0.onrender.com'],
+    })
+)
+
 
 router.post('/add-product', requireSignIn, formidable(), isAdmin, addProductController)
 router.put('/update-product/:pid', requireSignIn, formidable(), isAdmin, updateProductController)
