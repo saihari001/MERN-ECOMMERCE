@@ -4,7 +4,7 @@ import Layout from '../../components/Layout'
 
 const Orders = () => {
   return (
-    <Layout>
+    <Layout title='Orders - Unknown Brand'>
         <div className='container-fluid m-3 p-3'>
             <div className="row">
                 <div className="col-md-3">

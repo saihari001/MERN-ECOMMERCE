@@ -35,7 +35,7 @@ const login = () => {
     }
   }
   return (
-    <Layout>
+    <Layout title='Login - Unknown Brand'>
       <div className='register'>
         <h1>Login Page</h1>
         <form onSubmit={handleSubmit}>

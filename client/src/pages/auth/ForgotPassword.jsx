@@ -28,7 +28,7 @@ const ForgotPassword = () => {
         }
     }
   return (
-    <Layout>
+    <Layout title='Forgot Password - Unknown Brand'>
         <div className='register'>
             <h1>Forgot Password</h1>
             <form onSubmit={handleSubmit}>

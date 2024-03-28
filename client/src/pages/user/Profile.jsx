@@ -49,7 +49,7 @@ const Profile = () => {
 
 
   return (
-    <Layout>
+    <Layout title='Profile - Unknown Brand'>
         <div className='container-fluid m-3 p-3'>
             <div className="row">
                 <div className="col-md-3">

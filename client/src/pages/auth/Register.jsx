@@ -28,7 +28,7 @@ const Register = () => {
         }
     }
     return (
-        <Layout>
+        <Layout title='Register - Unknown Brand'>
         <div className='register'>
             <h1>Register Page</h1>
             <form onSubmit={handleSubmit}>

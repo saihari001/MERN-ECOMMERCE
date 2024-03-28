@@ -21,7 +21,7 @@ const ProductDetails = () => {
         }
     }
   return (
-    <Layout>
+    <Layout title={`${product.name} Details - Unknown Brand`}>
         <div className='row container mt-2'>
             <div className='col-md-5'>
             <img src={`https://mern-ecommerce-backend-34bh.onrender.com/product/get-product/photo/${product._id}/`} className='card-img-top' alt={product.name} height="400" width={"850px"}/>

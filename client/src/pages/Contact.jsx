@@ -3,7 +3,7 @@ import Layout from '../components/Layout'
 
 const Contact = () => {
   return (
-    <Layout>
+    <Layout title='Contact - Unknown Brand'>
         <h1>Contact</h1>
     </Layout>
   )

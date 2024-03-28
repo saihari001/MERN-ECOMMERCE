@@ -75,7 +75,7 @@ const HomePage = () => {
     setChecked(all)
   }
   return (
-    <Layout>
+    <Layout title='Home - Unknown Brand'>
       <div className='container-fluid row mt-3'>
         <div className="col-md-3">
           <h4 className='text-center'>Filters by Category</h4>
