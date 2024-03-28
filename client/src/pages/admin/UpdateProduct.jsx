@@ -125,7 +125,7 @@ const UpdateProduct = () => {
                 </div>
               ) : (
                 <div className='text-center'>
-                  <img src={`http://localhost:8000/product/get-product/photo/${id}`} alt="product photo" height={"100px"} className='img img-responsive' />
+                  <img src={`https://mern-ecommerce-backend-34bh.onrender.com/product/get-product/photo/${id}`} alt="product photo" height={"100px"} className='img img-responsive' />
                 </div>
               )}
             </div>

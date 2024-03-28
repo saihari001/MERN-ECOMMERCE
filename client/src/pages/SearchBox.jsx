@@ -15,7 +15,7 @@ const SearchBox = () => {
               {values?.results.map((p) => (
                 <>
                   <div className='card m-2' style={{ width: "18rem" }}>
-                    <img src={`http://localhost:8000/product/get-product/photo/${p._id}/`} width="100px" height="200px" className='card-img-top' alt={p.name} />
+                    <img src={`https://mern-ecommerce-backend-34bh.onrender.com/product/get-product/photo/${p._id}/`} width="100px" height="200px" className='card-img-top' alt={p.name} />
                     <div className='card-body'>
                       <h5 className='card-title'>{p.name}</h5>
                       <p className='card-text'>{p.description.substring(0,30)}...</p>

@@ -24,7 +24,7 @@ const ProductDetails = () => {
     <Layout>
         <div className='row container mt-2'>
             <div className='col-md-5'>
-            <img src={`http://localhost:8000/product/get-product/photo/${product._id}/`} className='card-img-top' alt={product.name} height="400" width={"850px"}/>
+            <img src={`https://mern-ecommerce-backend-34bh.onrender.com/product/get-product/photo/${product._id}/`} className='card-img-top' alt={product.name} height="400" width={"850px"}/>
             </div>
             <div className='col-md-4 p-2 g-2'>
                 <h1 className='text-center'>Product Details</h1>

@@ -98,7 +98,7 @@ const CartPage = () => {
                     {cart?.map((c) => (
                         <div className="row mb-2 p-3 card flex-row">
                             <div className="col-md-4">
-                                <img src={`http://localhost:8000/product/get-product/photo/${c._id}`} width="100px" height="100px" className='card-img-top' alt={c.name} />
+                                <img src={`https://mern-ecommerce-backend-34bh.onrender.com/product/get-product/photo/${c._id}`} width="100px" height="100px" className='card-img-top' alt={c.name} />
                             </div>
                             <div className="col-md-8">
                                 <p>{c.name}</p>
